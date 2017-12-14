@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #E0E0E0;
+  border-bottom: 1px solid black;
+}
+p {
+  font-family: 'Kaushan Script', cursive;
+}
+.logo {
+  display: inline;
+  width: 100%;
+}
+.logo img {
+  display: inline;
+  width: 40px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.logo h3 {
+  font-family: cursive;
+  font-family: 'Handlee', cursive;
+  display: inline;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+  color: black;
+  vertical-align: 10px;
+}
+.navigation {
+  display: inline;
+  vertical-align: top;
+  float: right;
+  margin-right: 10px;
+  margin-top: : 0;
+  padding-top:  7px;
+  font-family: cursive;
+  font-family: 'Handlee', cursive;
+  color: black;
+}
+a:hover {
+    background-color: grey;
+}
+h1 {
+  color: #941D04;
+  text-align: center;
+  font-family: 'Shrikhand', cursive;
+  font-weight:lighter;
+  font-size: 35px;
+  padding-top: 0;
+  margin: 5px;
+}
+#home h4 {
+  font-family: 'Shrikhand', cursive;
+  font-weight: lighter;
+  padding: 0 15px;
+  margin: 0 10px;
+  color: #941D04;
+}
+#home p {
+  margin-left: 35px;
+  margin-top: 0;
+}
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  object-fit: cover;
+  overflow: hidden;
+}
+#image1 {
+  order:1;
+  padding: 10px;
+}
+#image2 {
+  order:1;
+  padding: 10px;
+}
+#image3 {
+  order: 1;
+  padding: 10px;
+}
+#about {
+  display: flex;
+  text-align: left;
+  margin-top: 50px;
+}
+#about p {
+  padding-right: 25px;
+  flex: 1;
+  }
+#about h4 {
+  font-family: 'Shrikhand', cursive;
+  font-weight: lighter;
+  padding: 0 15px;
+  margin: 0 10px;
+  font-size: 25px;
+  color: #941D04;
+}
+#about img {
+  flex: 1;
+  max-width: 300px;
+  margin: 15px;
+  padding: 20px;
+  display: inline;
+}
+#contact {
+  color: #941D04;
+  font-family: 'Kaushan Script', cursive;
+  margin: 20px;
+  padding: 10px;
+  width: 50%;
+  display:block;
+}
+#contact legend {
+  font-family: 'Shrikhand', cursive;
+  font-weight: lighter;
+
+}
+label, textarea {
+    width:180px;
+    clear:left;
+    text-align:left;
+    padding-right:10px;
+}
+
+input, label, textarea {
+    float:left;
+}
+
+#button {
+  margin-top: 15px;
+  float: right;
+}
